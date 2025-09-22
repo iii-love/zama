@@ -1,0 +1,135 @@
+{
+	"compiler": {
+		"version": "0.8.24+commit.e11b9ed9"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "externalEuint32",
+						"name": "inputEuint32",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes",
+						"name": "inputProof",
+						"type": "bytes"
+					}
+				],
+				"name": "decrement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getCount",
+				"outputs": [
+					{
+						"internalType": "euint32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "externalEuint32",
+						"name": "inputEuint32",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "bytes",
+						"name": "inputProof",
+						"type": "bytes"
+					}
+				],
+				"name": "increment",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"FHECounter.sol": "FHECounter"
+		},
+		"evmVersion": "shanghai",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"FHE.sol": {
+			"keccak256": "0xf6d69ae3b009a9c8b2eff00e03ca4a456ef0513feba2b75edf8f44b36ddf5a4b",
+			"license": "BSD-3-Clause-Clear",
+			"urls": [
+				"bzz-raw://c0d7807675d8d139427ba146bee2e8ec04dfae3f96c978f66bc3ee49572457bf",
+				"dweb:/ipfs/QmYesP6CkCeMsaRE8SomYn6BEgi5W3iwr4va5wM2129qRi"
+			]
+		},
+		"FHECounter.sol": {
+			"keccak256": "0x6fb2de8fc289443f88a07317cf930dc950cdd520fd0c2b87b6b41e7a413832a9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://743bc3abaf2caf3b984f27d7705653fa369fa25c7370668f25e894f4184692bd",
+				"dweb:/ipfs/QmeBAvUV3bkZDVSCQzqvCDNw1W5a3LUsTu4zZFzByNBRv2"
+			]
+		},
+		"FHEVMConfig.sol": {
+			"keccak256": "0xc3246490ff7180911f9b91406cf7a16f35169db68f22c9c2a7db848f2b74b98c",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://ec2ca82edd45294f35a25ba57423a2c0eac53930ae62546449f1b9f9deeea1c9",
+				"dweb:/ipfs/QmfLDATsHut2Bf5wvXvHABZS538Amb14anAAbwZRRi4Jje"
+			]
+		},
+		"FheType.sol": {
+			"keccak256": "0xa4cffd37f9a99940bac82c2b305ab0b615a65c75f54e115692c9a535067c6842",
+			"license": "BSD-3-Clause-Clear",
+			"urls": [
+				"bzz-raw://cc9b75e07bb44dfcf9c0dcce42ead5530540ce4854841791a94ad1e45274d605",
+				"dweb:/ipfs/QmQV2SkXEE7GuqRhEgUwyeuWwXTPtW71GRHWet1BDxAHTX"
+			]
+		},
+		"Impl.sol": {
+			"keccak256": "0x1398e29635f1b49ac52038b8ebfc967fa73472f7094baf7d3d38800a82aee3f9",
+			"license": "BSD-3-Clause-Clear",
+			"urls": [
+				"bzz-raw://3d4cd42429dee0427d1a25c2ac361e98679a7003f6c93edaec9755a57f885760",
+				"dweb:/ipfs/QmSXXMGs3jXC7Nbd1s91zdqmh8oLoiBd44ULjHovboQEWx"
+			]
+		},
+		"SepoliaConfig.sol": {
+			"keccak256": "0xd7db97e857dcd7e7db70fbd2f435ce981b7b6f54a5b6410e553ce099d1f9c4b5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://75b82def33e447f2e98d7208627a4ecea1648d5d6160fc14484b6ea3f67a3e0e",
+				"dweb:/ipfs/Qma2gjYBUXD6J9h1HT8nZvUJukKjkYWt79pMBafcEGmxgh"
+			]
+		}
+	},
+	"version": 1
+}
